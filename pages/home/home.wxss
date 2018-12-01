@@ -1,0 +1,17 @@
+
+.container{
+  width: 750rpx;
+  height: 180rpx;
+  background-color: #fff;
+}
+
+.container image{
+  width: 750rpx;
+  height: 180rpx;
+}
+
+
+
+
+
+
