@@ -10,6 +10,43 @@
   height: 180rpx;
 }
 
+.grids{
+  display: flex;
+  flex-wrap: wrap;
+
+  border-top: 1px solid #eee;
+  border-left: 1px solid #eee;
+  /* //将边框的px算在盒子的宽高里面 */
+  box-sizing: border-box;
+}
+
+.grids-item{
+  display: flex;
+  width: 33.333333%;
+  height: 250rpx;
+
+  /* 定义flex布局内容主轴 */
+  justify-content: center;
+  /* 定义item位于中心 */
+  align-items:center;
+  /* 让元素从上往下排列 */
+  flex-direction: column;
+
+/* 设置每一个 item 的宽高 */
+  border-bottom: 1px solid #eee;
+  border-right: 1px solid #eee;
+  box-sizing: border-box;
+}
+
+.grids-item image{
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.grids-item text{
+  font-size: 28rpx;
+  color:#999;
+}
 
 
 
